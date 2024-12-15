@@ -1,0 +1,291 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../IMG/fondo.jpg');
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffe600; /* Color al pasar el cursor */
+  text-decoration: underline; /* Subraya el texto */
+  transition: all 0.3s ease-in-out; /* Efecto de transición suave */
+}
+
+
+.col-md-6 { 
+  border-color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+header .btn {
+  border-radius: 30px;
+  padding: 0.8rem 2rem;
+}
+#about, #skills {
+  padding: 4rem 0;
+}
+#about img {
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+#projects .card {
+  border: none;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+#projects .card:hover {
+  transform: translateY(-10px);
+}
+#skills .icon-box {
+  font-size: 3rem;
+  color: #2575fc;
+}
+#contact {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  color: white;
+  padding: 4rem 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #0856a3;
+  padding: 20px 0;
+  text-align: center;
+  color: #495057;
+}
+
+.footer-container { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  max-width: 300px;
+  color: #f7f2f2;
+}
+
+.footer-column h5 {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.footer-column p, .footer-column a {
+  color: #d9dee4;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #6f42c1;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {  
+  color: #eeeeee;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #6f42c1;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+ color: #d9dee4;
+  padding: 10px 0;
+}
+
+/* Contacto*/
+
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px;
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 40px;
+  background-color: #f4f4f4;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+}
+
+.informacion, .contactame {
+  width: 45%;
+  background-color: #ffffff; /* Blanco */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px; /* Espacio en la parte inferior para pantallas pequeñas */
+}
+.cuadro{
+  width: 50%;
+  background-color: #ffffff; /* Blanco */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px; /* Espacio en la parte inferior para pantallas pequeñas */
+}
+.informacion:hover, .contactame:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.informacion h2, .contactame h2 {
+  color: #000000; /* Color púrpura intenso */
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.informacion p, .contactame label {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #4b0082; /* Color púrpura medio */
+}
+
+.contactame form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactame input, .contactame textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #000000; /* Púrpura */
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: border-color 0.3s ease;
+}
+
+.contactame input:focus, .contactame textarea:focus {
+  border-color: #d8bfd8; /* Lila claro */
+}
+
+.contactame button {
+  background-color: #800080; /* Púrpura vibrante */
+  color: white;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.contactame button:hover {
+  transform: scale(1.1);
+  background-color: #000000; /* Púrpura más intenso al pasar el cursor */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media screen and (max-width: 1024px) {
+  .contacto {
+      padding: 40px; /* Reducir el padding en pantallas más pequeñas */
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .informacion, .contactame {
+      width: 80%; /* Aumentar el tamaño en pantallas pequeñas */
+  }
+
+  .contactame button {
+      width: 100%; /* Botón de ancho completo en pantallas pequeñas */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacto {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+  }
+
+  .informacion, .contactame {
+      width: 90%; /* Ajustar el ancho de los elementos en pantallas muy pequeñas */
+  }
+
+  .informacion h2, .contactame h2 {
+      font-size: 2rem; /* Reducir tamaño de fuente */
+  }
+
+  .contactame button {
+      width: 100%; /* Asegura que el botón ocupe todo el espacio */
+  }
+}
+
+h3 {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 150px;
+  word-wrap: break-word; /* Para evitar que el texto se desborde */
+  font-size: 3rem; /* Reducir el tamaño en pantallas más pequeñas */
+}
+
+@media screen and (max-width: 480px) {
+  h3 {
+      font-size: 2.5rem; /* Reducir más en pantallas muy pequeñas */
+      margin-top: 100px;
+  }
+
+  .contacto {
+      padding: 20px; /* Asegurarse de que haya espacio suficiente */
+  }
+
+  .informacion, .contactame {
+      width: 100%; /* Los elementos ocuparán el 100% de la pantalla en móviles pequeños */
+  }
+
+  .contactame button {
+      width: 100%; /* Asegurarse de que el botón ocupe todo el espacio */
+  }
+}
